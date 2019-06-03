@@ -1,4 +1,7 @@
 //3. 无重复字符的最长子串
+//时间复杂度：O(n)，将会迭代n次。
+//空间复杂度（HashMap）：O(n)。
+
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
